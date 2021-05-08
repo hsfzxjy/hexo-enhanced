@@ -1,0 +1,27 @@
+{
+  "name": "hexo-enhanced",
+  "version": "0.1.0",
+  "description": "Enhanced markdown renderer for hexo to support high priority Latex and Imbed image rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsfzxjy/hexo-enhanced.git"
+  },
+  "keywords": [
+    "hexo"
+  ],
+  "author": "hsfzxjy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hsfzxjy/hexo-enhanced/issues"
+  },
+  "homepage": "https://github.com/hsfzxjy/hexo-enhanced#readme",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "lodash": "^4.17.20",
+    "pug": "^2.0.1"
+  }
+}
