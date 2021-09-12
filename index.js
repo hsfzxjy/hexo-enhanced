@@ -13,3 +13,4 @@ hexo.extend.filter.register('before_post_render', require('./lib/filter/before_p
 
 hexo.extend.filter.register('after_post_render', require('./lib/filter/after_post_render/typography'), 11)
 hexo.extend.filter.register('after_post_render', require('./lib/filter/after_post_render/hl_label'), 11)
+hexo.extend.filter.register('after_post_render', require('./lib/filter/after_post_render/inline_notes'), 11)
