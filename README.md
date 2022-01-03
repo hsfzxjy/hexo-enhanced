@@ -1,2 +1,8 @@
-# hexo-renderer-marked-enhanced
-Enhanced markdown renderer for hexo to support high priority Latex and Imbed image rendering.
+# hexo-enhanced
+
+Hexo enhancement plugin for
+
+- high-priority Tex snippets
+- graphviz rendering
+- highlighting specific lines in code blocks
+- extra directives for typography
