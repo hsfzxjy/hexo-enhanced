@@ -15,7 +15,7 @@ hexo.extend.filter.register(
 require("./lib/filter/before_post_render/hackHighlight")
 hexo.extend.filter.register(
   "before_post_render",
-  require("./lib/filter/before_post_render/mathjax"),
+  require("./lib/filter/before_post_render/mathjax")(hexo),
   11
 )
 hexo.extend.filter.register(
@@ -38,4 +38,14 @@ hexo.extend.filter.register(
   "after_post_render",
   require("./lib/filter/after_post_render/inline_notes"),
   11
+)
+hexo.extend.filter.register(
+  "after_post_render",
+  require("./lib/filter/after_post_render/auto-digest"),
+  12
+)
+hexo.extend.filter.register(
+  "after_post_render",
+  require("./lib/filter/after_post_render/encryption")(hexo),
+  13
 )
