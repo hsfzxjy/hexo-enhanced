@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/hsfzxjy/hexo-enhanced#readme",
   "dependencies": {
+    "hexo-util": "^2.7.0",
     "jade": "^1.11.0",
     "lodash": "^4.17.20",
     "pug": "^2.0.1"

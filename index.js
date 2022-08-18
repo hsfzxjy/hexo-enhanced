@@ -49,3 +49,8 @@ hexo.extend.filter.register(
   require("./lib/filter/after_post_render/encryption")(hexo),
   13
 )
+
+hexo.extend.helper.register(
+  "tagcloud_ex",
+  require("./lib/helper/tagcloud_ex")
+)
